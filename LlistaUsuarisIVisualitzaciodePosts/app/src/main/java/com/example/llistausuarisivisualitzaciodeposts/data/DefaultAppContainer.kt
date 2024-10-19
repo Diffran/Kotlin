@@ -11,7 +11,7 @@ interface AppContainer{
 }
 
 class DefaultAppContainer : AppContainer{
-    private val baseUrl = "https://jsonplaceholder.typicode.com"
+    private val baseUrl = "https://jsonplaceholder.typicode.com/"
 
     //valors del retrofit
     private val retrofit: Retrofit = Retrofit.Builder()

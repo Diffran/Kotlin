@@ -36,4 +36,3 @@ data class Company(
     @SerialName("catchPhrase") val catchPhrase: String,
     @SerialName("bs") val bs: String
 )
-
